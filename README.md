@@ -1,1 +1,2 @@
 # Feature_Engineering
+This notebook uses PySpark to build Pipelines to predict whether a passenger survived using feature engineering against the Titanic dataset. This uses both numerical and categorical features for prediction. Categorical features are encoded using One Hot Encoder and numerical features are combined into a single vector using Vector Assembler. The pipeline uses Logistic Regression to predict a binary outcome (Survived or Didnt) 
